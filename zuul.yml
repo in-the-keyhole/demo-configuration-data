@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    hystrix:
+      path: /hystrix.stream
+      serviceId: api-gateway
+      stripPrefix: false        
